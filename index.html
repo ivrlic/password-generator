@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section>
+        <div class="part1">
+            <h1>Generate a <br><span class="green-letters">random password</span></h1>
+            <p>Never use an insecure password again.</p>
+            <label for="input-el">Number of characters</label>
+            <br>
+            <input type="text" id="input-el">
+            <br>
+            <button onclick="generatePass()"><span class="emoji-white">⚡</span> Generate password</button>
+        </div>
+        <div class="part2">
+            <div class="column">
+                <p class="result" id="pass1"><span class="dot">•••<span></span></p>
+                <p class="result" id="pass2"><span class="dot">•••<span></span></p>
+            </div>
+            <div class="column">
+                <p class="result" id="pass3"><span class="dot">•••<span></p>
+                <p class="result" id="pass4"><span class="dot">•••<span></p>
+            </div>
+        </div>
+    </section>    
+    <script src="index.js"></script>
+</body>
+</html>
+
